@@ -373,6 +373,10 @@
     {
       "packageName": "admin",
       "projectFolder": "apps/admin"
+    },
+    {
+      "packageName": "@libs/button",
+      "projectFolder": "libs/button"
     }
     // {
     //   /**

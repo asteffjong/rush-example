@@ -1,9 +1,6 @@
 # setup env
 ``npm install -g pnpm``
-https://pnpm.io/installation
-(this project uses pnpm version 6.11.0)
 
-https://rushjs.io/pages/intro/get_started/
 ``npm install -g @microsoft/rush``
 
 run ``rush update`` to install dependencies
@@ -28,6 +25,28 @@ you will see that rush only builds the apps where changes are detected.
 # setting up pre-commit git hooks
 ```
 cd common/git-hooks
-touch pre-commit
-chmod +x pre-commit
+touch pre-commit 
+rush install
 ```
+rush should detect changes to files under git hooks 
+and add them so that when you run ``git commit``
+if trouble with permission make sure to run ``chmod +x pre-commit``
+
+# create a new library
+```
+cd libs
+npx tsdx create button
+```
+
+
+
+# Resources
+https://rushjs.io/pages/intro/get_started/
+
+https://tsdx.io/
+
+https://pnpm.io/installation
+(this project uses pnpm version 6.11.0)
+
+https://www.linkedin.com/learning/building-monorepos-on-github/installing-shared-components
+
