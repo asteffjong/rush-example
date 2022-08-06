@@ -1,0 +1,2 @@
+node common/scripts/my-task.js
+#python3 common/scripts/script.py
