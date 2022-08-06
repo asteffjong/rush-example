@@ -16,12 +16,18 @@ run ``rush build -o shop`` to build only admin project
 
 # testing out rush
 make a change to ``apps/shop/src/App.js`` and run ``rush build`` again
-``
+```
 ==[ shop ]=========================================================[ 1 of 2 ]==
 "shop" completed successfully in 3.94 seconds.
 
 ==[ admin ]========================================================[ 2 of 2 ]==
 "admin" was skipped.
-``
+```
 you will see that rush only builds the apps where changes are detected. 
 
+# setting up pre-commit git hooks
+```
+cd common/git-hooks
+touch pre-commit
+chmod +x pre-commit
+```
