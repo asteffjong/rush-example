@@ -1,1 +1,1 @@
-console.log('Task finished.')
+console.log('Hello from Node!')
