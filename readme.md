@@ -37,6 +37,9 @@ if trouble with permission make sure to run ``chmod +x pre-commit``
 cd libs
 npx tsdx create button
 ```
+check package.json change its name to the same used in rush.json
+install any dependencies that are used, like react etc. 
+
 
 
 

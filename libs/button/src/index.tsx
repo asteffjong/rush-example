@@ -14,7 +14,7 @@ export const BigRedButton = () => {
 
   return (
     <>
-    <button style= { buttonStyle } > <strong>Big Red Button < /strong> </button >
-      </>
+      <button style={buttonStyle} > <strong>Big Red Button < /strong> </button >
+    </>
   )
 };
